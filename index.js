@@ -111,7 +111,7 @@ let markdownDelegator = (data) => {
 
 // Writing the readme file and adding in the data
 let writeToFile = (data) => {
-    let fileName = "README1.md"
+    let fileName = "README.md"
     fs.writeFile( fileName, data, (err) =>
   err ? console.error(err) : console.log('Success!')
 );
